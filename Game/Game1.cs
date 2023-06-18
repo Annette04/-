@@ -43,7 +43,7 @@ namespace SpaceGame
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-            death = Content.Load<Song>("death1");
+            //death = Content.Load<Song>("death1");
             StartScreen.Background = Content.Load<Texture2D>("background");
             StartScreen.Font = Content.Load<SpriteFont>("StartFont");
             StartScreen.Font2 = Content.Load<SpriteFont>("Text");
